@@ -2,7 +2,6 @@ import Service from "@components/Service";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
-
 const services = [
   {
     "title": "CRM & Marketing",
@@ -114,8 +113,6 @@ const services = [
   }
 ]
 
-
-
 export default function Home() {
   return (
     <div>
@@ -173,7 +170,7 @@ export default function Home() {
         />
       </div>
       {/* Section4 */}
-      <div className='relative h-[calc(100vh-64px)] bg-[#e1f4ff]'  >
+      <div className='relative h-[calc(100vh-64px)] bg-[#e1f4ff] '  >
         <div className=' h-0 w-0 
                 border-l-[1519px] border-l-white
                 border-t-[400px] border-t-[#e1f4ff]
@@ -207,7 +204,7 @@ export default function Home() {
             lazy dog</p>
           <div className="flex gap-5 text-[#31A0FE]" >
             <FaFacebook size={25} className="cursor-pointer hover:text-black transition-colors duration-300" />
-            <FaInstagram size={25} className="cursor-pointer hover:text-black transition-colors duration-300"  />
+            <FaInstagram size={25} className="cursor-pointer hover:text-black transition-colors duration-300" />
             <FaTwitter size={25} className="cursor-pointer hover:text-black transition-colors duration-300" />
           </div>
         </div>
@@ -238,3 +235,6 @@ export default function Home() {
     </div>
   );
 }
+
+//todo 1- Make transintions like Jquery 
+//todo 2- Make it responsive 
