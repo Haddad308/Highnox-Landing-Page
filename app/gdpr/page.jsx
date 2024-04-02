@@ -4,7 +4,7 @@ const page = () => {
     return (
         <div className="container mx-auto py-8 px-10 md:px-20">
             <h1 className="text-3xl font-bold mb-4">General Data Protection Regulation (GDPR) Privacy Policy</h1>
-            <p className="mb-4">Highnox ("us", "we", or "our") operates the highnox.com website (the "Service"). This GDPR Privacy Policy explains how we collect, use, and disclose personal data when you use our Service and outlines your rights under the General Data Protection Regulation ("GDPR").</p>
+            <p className="mb-4">Highnox (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the highnox.com website (the &quot;Service&quot;). This GDPR Privacy Policy explains how we collect, use, and disclose personal data when you use our Service and outlines your rights under the General Data Protection Regulation (&quot;GDPR&quot;).</p>
 
             <h2 className="text-xl font-semibold mb-2">1. Data Controller</h2>
             <p className="mb-4">Highnox is the data controller responsible for your personal data.</p>

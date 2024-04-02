@@ -4,7 +4,7 @@ const page = () => {
     return (
         <div className="container mx-auto py-8 px-10 md:px-20">
             <h1 className="text-3xl font-bold mb-4">Cookie Policy</h1>
-            <p className="mb-4">This Cookie Policy explains how Highnox (referred to as "us," "we," or "our") uses cookies and similar tracking technologies when you visit our website, Highnox.com (the "Service").</p>
+            <p className="mb-4">This Cookie Policy explains how Highnox (referred to as &quot;us,&quot; &quot;we,&quot; or &quot;our&quot;) uses cookies and similar tracking technologies when you visit our website, Highnox.com (the &quot;Service&quot;).</p>
 
             <h2 className="text-xl font-semibold mb-2">1. What are Cookies?</h2>
             <p className="mb-4">Cookies are small pieces of text sent by your web browser by a website you visit. A cookie file is stored in your web browser and allows the Service or a third party to recognize you and make your next visit easier and the Service more useful to you.</p>
