@@ -13,12 +13,12 @@ export default function NabBar() {
             "page": "/crm"
         },
         {
-            "title": "Space Management",
+            "title": "Conference Management" ,
             "src": "/SM .svg",
             "page": "/sm"
         },
         {
-            "title": "Conference Management",
+            "title": "Space Management",
             "src": "/cm.svg",
             "page": "/cm"
         },
