@@ -31,14 +31,14 @@ const SERVICES = {
     "sm": {
         "image": "/assets/Services/SM.svg",
         "logo": "/SM .svg",
-        "title": "Space Management",
+        "title": "Conference Management",
         "description": "Ett komplett webbaserat bokningssystem förkonferensanläggningar, kontorshotell, kursgårdar, mötesanläggningar,föreningar, kommuner och statliga myndigheter. Omfattande bokningssystem med smarta funktioner som hanterarhela flödet från bokning till fakturering samt ger er en total överblick överera bokningar, kunder, bekräftelser, fakturering och rapporter för attunderlätta era beslut. Kombinera bokningssystemet med Highnox övriga moduler föratt spara tid och pengar samt för att underlätta flödet i hela organisationen.",
         "content": <Sm />
     },
     "cm": {
         "image": "/assets/Services/CM.svg",
         "logo": "/cm.svg",
-        "title": "Conference Management",
+        "title": "Space Management",
         "description": "Ett helt kraftfull och webbaserat hyresavtalssystem för kontorshotelloch  fastighetsägare.Modulen är det enkla sättet att övervaka era  rumsuthyrningarsamt att ha sten kontroll över din verksamhets samtliga hyresavtal ocheffektivisering av era arbetsflöden.",
         "content": <Cm />
     },
