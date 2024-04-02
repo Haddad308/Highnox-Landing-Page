@@ -4,6 +4,7 @@ import { Providers } from './Providers';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import NabBar from '@components/Nav';
 import Link from 'next/link';
+import CookiesC from '@components/Cookies';
 
 export const metadata = {
   title: "Highnox",
@@ -18,8 +19,10 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" />
       </head>
       <body className='overflow-x-hidden' >
+        
         <Providers>
           <div>
+            <CookiesC/>
             <NabBar/>
             {children}
             {/* Section5 */}
