@@ -1,6 +1,5 @@
 import Service from "@components/Service";
 import Image from "next/image";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const services = [
   {
@@ -125,36 +124,29 @@ export default function Home() {
                 z-0
                 ' >
         </div>
-        <div className=' h-[90%] w-[90%] absolute  z-20 right-10 flex  items-center justify-around' >
+        <div className="absolute w-full h-full z-20 sm:flex md:flex lg:flex justify-center items-center md:gap-10 px-5 pt-10" >
           <div className="flex flex-col justify-center gap-5 items-center ">
             <h1 className="text-5xl font-bold" >Alla dina affärer <br />  på en plattform.</h1>
             <p className="text-right mb-20">Håll dig organiserad, fokuserad och uppnå mer <br /> med vår kraftfulla webbapp för produktivitet. Ta <br /> kontroll över dina uppgifter, erövra dina mål.</p>
           </div>
           <div className="relative">
             <Image
-              src={"/11 1.png"}
+              src={"/erp.svg"}
               alt="aa"
               width={700}
               height={500}
-            />
-            <Image
-              src={"/12 1.png"}
-              alt="aa"
-              width={1000}
-              height={500}
-              className="absolute  top-52 right-28"
             />
           </div>
         </div>
       </div>
       {/* Section2 */}
-      <div className="bg-white grid grid-cols-3 gap-10 py-20 px-40 " >
+      <div className="bg-white grid md:grid-cols-3 gap-10 px-10 pb-20 md:py-20 md:px-40 " >
         {services.map(({ title, description, src, page }, index) => (
           <Service key={index} title={title} description={description} src={src} page={page} />
         ))}
       </div>
       {/* Section3 */}
-      <div className="flex gap-10 items-center px-52 py-10" >
+      <div className="flex flex-col md:flex-row gap-10 items-center px-10 md:px-52" >
         <div>
           <h1 className="text-5xl font-bold mb-7">Sätt upp och spåra dina mål <br />
             för framgång</h1>
@@ -170,7 +162,7 @@ export default function Home() {
         />
       </div>
       {/* Section4 */}
-      <div className='relative h-[calc(100vh-64px)] bg-[#e1f4ff] '  >
+      <div className='relative h-[calc(100vh-64px)] bg-[#e1f4ff]  '  >
         <div className=' h-0 w-0 
                 border-l-[1519px] border-l-white
                 border-t-[400px] border-t-[#e1f4ff]
@@ -178,7 +170,7 @@ export default function Home() {
                 z-0
                 ' >
         </div>
-        <div className=' h-[90%] w-[90%] absolute px-20 py-10 z-20 right-10   flex  gap-10 items-center justify-around' >
+        <div className=' absolute w-full h-full z-20 sm:flex md:flex lg:flex justify-center items-center md:gap-10 px-10 md:px-32 py-10' >
 
           <Image
             src={"/Features 1.svg"}
@@ -195,42 +187,6 @@ export default function Home() {
               Embrace life&apos;s vastness, venture forth, and discover the wonders waiting beyond. The world beckons; seize its grand offerings now!          </p>
           </div>
         </div>
-      </div>
-      {/* Section5 */}
-      <div className="bg-white px-52 flex py-7 gap-5  justify-between" >
-        <div className="flex flex-col gap-2" >
-          <h1 className="font-bold text-2xl" >Get In Touch</h1>
-          <p className=" py-3" >the quick fox jumps over the <br />
-            lazy dog</p>
-          <div className="flex gap-5 text-[#31A0FE]" >
-            <FaFacebook size={25} className="cursor-pointer hover:text-black transition-colors duration-300" />
-            <FaInstagram size={25} className="cursor-pointer hover:text-black transition-colors duration-300" />
-            <FaTwitter size={25} className="cursor-pointer hover:text-black transition-colors duration-300" />
-          </div>
-        </div>
-        <div className="flex flex-col gap-2" >
-          <h1 className="font-bold text-2xl" >Company info</h1>
-
-          <div className="flex flex-col gap-5 font-semibold pt-3 text-gray-600 " >
-            <p className="cursor-pointer  w-28 hover:text-black transition-colors duration-300" >About Us</p>
-            <p className="cursor-pointer  w-28 hover:text-black transition-colors duration-300">Carrier</p>
-            <p className="cursor-pointer  w-28 hover:text-black transition-colors duration-300">We are hiring</p>
-            <p className="cursor-pointer  w-28 hover:text-black transition-colors duration-300">Blog</p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-2" >
-          <h1 className="font-bold text-2xl" >Features</h1>
-          <div className="flex flex-col gap-5 font-semibold pt-3 text-gray-600" >
-            <p className="cursor-pointer   hover:text-black transition-colors duration-300">Business Marketing</p>
-            <p className="cursor-pointer   hover:text-black transition-colors duration-300">User Analytic</p>
-            <p className="cursor-pointer   hover:text-black transition-colors duration-300">Live Chat</p>
-            <p className="cursor-pointer   hover:text-black transition-colors duration-300">Unlimited Support  </p>
-          </div>
-        </div>
-      </div>
-      {/* Section6 */}
-      <div className="bg-[#e1f4ff] flex justify-center items-center p-5 mt-6" >
-        <p className="font-semibold">Made With Love By Mohamed El-Haddad All Right Reserved &copy;</p>
       </div>
     </div>
   );

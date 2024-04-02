@@ -19,7 +19,7 @@ const Crm = () => {
                     <li>Skapa anpassade prisstrategier.</li>
                 </ul>
             </div>
-            <div className='grid grid-cols-2 gap-5' >
+            <div className='grid md:grid-cols-2 gap-5' >
                 <div>
                     <h1 className='font-bold mb-5'>Håll möjligheter framför dig</h1>
 
@@ -42,7 +42,7 @@ const Crm = () => {
                     />
                 </div>
             </div>
-            <div className='grid grid-cols-2 gap-5'>
+            <div className='grid md:grid-cols-2 gap-5'>
                 <div>
                     <Image
                         src="/assets/Services/crm2.svg"

@@ -24,8 +24,8 @@ const Pos = () => {
 
 
     return (
-        <div className='p-10 px-20 flex flex-col gap-y-20' >
-            <div className='grid grid-cols-2 gap-14' >
+        <div className='p-10 px-10 md:px-20 flex flex-col gap-y-20' >
+            <div className='grid md:grid-cols-2 gap-14' >
                 {myfeatures.map(({ title, description }, index) => <Feature key={index} title={title} description={description} />)}
             </div>
             <div className='flex justify-center' >

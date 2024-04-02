@@ -1,31 +1,32 @@
 import Feature from '@components/Feature';
+import FeatureWrapper from '@components/FeatureWrapper';
 import React from 'react'
 
 const Sm = () => {
     const myfeatures = [
         {
             title: "Anpassat",
-            description: "HighNox ERP är helt anpassat för kontorshotell samt fastighetsbranschen. Vi ser till att konfigurera systemet med den funktionalitet och krav ni behöver redan från början, i stället för att bygga ett system som inte är anpassat."
-        },
-        {
-            title: "Full kontroll",
-            description: "Ni får full kontroll av din verksamhet samtliga hyresavtal samt effektivisering av era arbetsflöden. Ni får en komplett ekonomisk översikt för att fatta rätt beslut."
+            description: "Omfattande bokningssystem som kan användas för din verksamhet. Systemet är helt webbaserat och hanterar hela flödet från bokning till fakturering. De smarta funktionerna som finns i systemet hjälper er att få kontroll över alla era bokningar, minimera risken för manuella fel, missa aldrig ändringar eller matavvikelser, automatiserade bekräftelser, automatiserade välkomstbrev med möjlighet för kunden att uppdatera sina bokningar."
         },
         {
             title: "Schema och planritning",
-            description: "Ni får tillgång till ett uppdelat schema som visar en hel bild på tolv månader över de uthyrda rummen samt ledig & mötesrum. Utöver detta får ni access till planritning som visar nuvarande och framtida intäkter varje månad."
+            description: "Ni får tillgång till ett uppdelat schema med en översiktlig bild över era rum för att hantera era bokningar och förfrågningar."
+        },
+        {
+            title: "Ekonomi",
+            description: "Ni får en full ekonomisk översikt i era bokningar. Översikten ger er anställda korrekt underlag för att fatta rätt beslut."
         },
         {
             title: "Nyckeltal och rapporter",
-            description: "Nyckeltalsrapporter visar verksamheten en tydlig översikt över hur intäkterna fördelas, största kunder och statistik uthyra kvm, lediga ytor, beläggningsgrad, snittpriser med mera."
-        },
-        {
-            title: "Mötesrum",
-            description: "Ni får full access till ett mötesrum modulen där ni kan hantera alla era bokningar för mötesrum och effektivisera uthyrningen med olika prisstrategier för olika tider under dagen."
+            description: "Nyckeltalsrapporter visar verksamheten en tydlig översikt över hur intäkterna fördelas, största kunder och statistik för att fatta rätt beslut. ERP-systemet kan konfigureras för att skicka ut automatiska påminnelser, förskottsfakturor t.ex. 30 dagar före bokningsdatumet."
         },
         {
             title: "Debiteringar",
-            description: "Modulen hanterar de enstaka debiteringar som sker löpande över disken eller via mail."
+            description: "Modulen hanterar de enstaka debiteringar ifall projektledaren missat något."
+        },
+        {
+            title: "Kassasystem",
+            description: "En modul som kan användas i baren eller under event för mer försäljning. Modulen kan integreras med vilket betalsystem som helst utöver detta kan ni debitera mer försäljning på kundens räkning."
         },
         {
             title: "Epost",
@@ -33,23 +34,17 @@ const Sm = () => {
         },
         {
             title: "Kundkortet",
-            description: "Ni får en helhetsbild av era kunder med alla kontrakt, fakturor, rabatter, mötesrum, offerter, ordrar, betalningsvillkor, faktureringsvillkor, noteringar med mera."
-        },
-        {
-            title: "App och intranät",
-            description: "Genom appen och online intranät kan era kunder boka mötesrummen, läsa viktiga nyheter, delta i event, se era lediga mötesrummen eller kontorsrummen."
+            description: "Ni får en helhetsbild av era kunder med alla bokningar, fakturor, rabatter, offerter, ordrar, betalningsvillkor, faktureringsvillkor, noteringar m.m. Genom appen och online intranät, kan era kunder boka mötesrummen, läsa viktiga nyheter, delta i event, se era lediga mötesrum."
         },
         {
             title: "Integrationer",
-            description: "Automatisera faktureringen med smarta integrationer med ditt affärs- och ekonomisystem. Med automatisering blir hanteringen enkel genom att de betalda och förfallna fakturorna integreras."
+            description: "Automatisera faktureringen med smarta integrationer med ditt affärs- och ekonomisystem. Med automatisering blir hanteringen enkel genom att de betalda och förfallna fakturorna."
         }
     ];
     return (
-        <div className='p-10 px-20 flex flex-col gap-y-20' >
-            <div className='grid grid-cols-2 gap-14' >
-                {myfeatures.map(({ title, description }, index) => <Feature key={index} title={title} description={description} />)}
-            </div>
-        </div>
+        <FeatureWrapper>
+            {myfeatures.map(({ title, description }, index) => <Feature key={index} title={title} description={description} />)}
+        </FeatureWrapper>
     )
 }
 

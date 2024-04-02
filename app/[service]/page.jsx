@@ -164,22 +164,21 @@ const page = ({ params }) => {
                 z-0
                 ' >
                 </div>
-                <div className=' h-[90%] w-[90%] absolute  z-20 right-10 flex items-center justify-around' >
-                    <div className=" flex flex-col justify-start gap-5 items-start  w-[44%]  ">
+                <div className='absolute w-full h-full  z-20 flex flex-col md:flex-row mx-10  md:items-center justify-center' >
+                    <div className="  flex flex-col justify-start gap-5 items-start w-[80%] md:w-[44%]">
                         <Image
                             src={SERVICES[serviceUrl]?.logo}
                             alt="aa"
-                            width={150}
+                            width={130}
                             height={150}
-
                         />
-                        <h1 className="text-5xl font-bold" >{SERVICES[serviceUrl]?.title}</h1>
-                        <p className="text-left mb-20">{SERVICES[serviceUrl]?.description}</p>
+                        <h1 className="text-4xl font-bold" >{SERVICES[serviceUrl]?.title}</h1>
+                        <p className="text-left mb-20 ">{SERVICES[serviceUrl]?.description}</p>
                     </div>
-                    <div className="relative w-[56%] overflow-hidden flex items-center justify-center ">
+                    <div className="relative pr-14 md:mr-10 overflow-hidden flex items-center justify-center ">
                         <Image
                             src={SERVICES[serviceUrl]?.image}
-                            alt="aa"
+                            alt="Serivce"
                             width={700}
                             height={400}
                             className='border-2  overflow-hidden'
