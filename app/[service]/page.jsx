@@ -30,14 +30,14 @@ const SERVICES = {
     },
     "sm": {
         "image": "/assets/Services/SM.svg",
-        "logo": "/SM .svg",
+        "logo": "/cm.svg",
         "title": "Conference Management",
         "description": "Ett komplett webbaserat bokningssystem förkonferensanläggningar, kontorshotell, kursgårdar, mötesanläggningar,föreningar, kommuner och statliga myndigheter. Omfattande bokningssystem med smarta funktioner som hanterarhela flödet från bokning till fakturering samt ger er en total överblick överera bokningar, kunder, bekräftelser, fakturering och rapporter för attunderlätta era beslut. Kombinera bokningssystemet med Highnox övriga moduler föratt spara tid och pengar samt för att underlätta flödet i hela organisationen.",
         "content": <Sm />
     },
     "cm": {
         "image": "/assets/Services/CM.svg",
-        "logo": "/cm.svg",
+        "logo": "/SM .svg",
         "title": "Space Management",
         "description": "Ett helt kraftfull och webbaserat hyresavtalssystem för kontorshotelloch  fastighetsägare.Modulen är det enkla sättet att övervaka era  rumsuthyrningarsamt att ha sten kontroll över din verksamhets samtliga hyresavtal ocheffektivisering av era arbetsflöden.",
         "content": <Cm />
@@ -68,14 +68,14 @@ const SERVICES = {
         "logo": "/mr.svg",
         "title": "Maintenance & Repair",
         "description": "Organisera dina reparationer och underhåll med fantastisk kanban och kalendervyer.",
-        "content": <Mr/>
+        "content": <Mr />
     },
     "Recruitment": {
         "image": "/assets/Services/rec.svg",
         "logo": "/Recruitment 1.svg",
         "title": "Recruitment- Rekrytering",
         "description": "Highnox rekryteringsverktyg effektiviserar hela din rekryteringsprocess, så att du snabbt och enkelt kan hitta de bästa personerna till ditt team.",
-        "content": <Rec/>
+        "content": <Rec />
     },
     "Payroll": {
         "image": "/assets/Services/payroll.svg",
@@ -96,56 +96,56 @@ const SERVICES = {
         "logo": "/Accounting 1.svg",
         "title": "Accounting- Bokföring",
         "description": "Highnox bokföring är ett modernt och användarvänlig bokföringsprogram. Användaren kommer att uppleva enkelhen i programmet och fatta att arbetet är annorlunda för att undvika frustrationen av de långsamma gränssnitten, överfulla e-email inkorgar och oändliga data.",
-        "content": <Acc/>
+        "content": <Acc />
     },
     "Dashboards": {
         "image": "/assets/Services/dashboard.svg",
         "logo": "/c.svg",
         "title": "Dashboards",
         "description": "Highnox BI-verktyg ger dig översikten för att driva din verksamhet framåt. Ha värdefulla insikter i din ekonomi genom de fina rapporterna.",
-        "content": <Dash/>
+        "content": <Dash />
     },
     "Event": {
         "image": "/assets/Services/events.svg",
         "logo": "/Event 1.svg",
         "title": "Event",
         "description": "Med Highnox events kan du prganisera  alla dina events, marknadsföra, publicera samt sälja mer med ett enda program. Användarvänliga dashboards,  Enkla evenemangsformulär,  virtuella evenemang och mycket mer!",
-        "content": <Event/>
+        "content": <Event />
     },
     "Survey": {
         "image": "/assets/Services/survey.svg",
         "logo": "/Survey 1.svg",
         "title": "Survey-Kundnöjdhet",
         "description": "Skapa unikt engagerande nöjdhetsundersökningar, medarbetarbedömningar, marknadsföringskampanjer, feedbackformulär och mycket mer!",
-        "content": <Sur/>
+        "content": <Sur />
     },
     "purchase": {
         "image": "/assets/Services/pp.svg",
         "logo": "/purchase 1.svg",
         "title": "Purchase - Inköp",
         "description": "Luta dig tillbaka och låt Highnox inköp (Allt i ett program) göra jobbet. Allt från anbudsförfrågningar till kvitton, från produktvarianter till leverantörsräkningar. ",
-        "content": <Purchase/>
+        "content": <Purchase />
     },
     "Ticketing": {
         "image": "/assets/Services/help.svg",
         "logo": "/Ticketing system 1.svg",
         "title": "Helpdesk- Ärendehantering",
         "description": "Highnox Helpdesk - Helt integrerat plattform som stödjer ditt team, så att de kan hjälpa dina kunder på ett effektivt och framgångsrikt sätt. Adjö till de gamla komplicerade systemen och hej till en nytt effektivt och kundcentrerad support med Highnox.",
-        "content": <Ticket/>
+        "content": <Ticket />
     },
     "Web": {
         "image": "/assets/Services/web.svg",
         "logo": "/Web 1.svg",
         "title": "Website",
         "description": "Highnox Website builder förändrar hur folk tänker kring webbdesign. Tack vare de enkla och användarvänliga  funktionerna kan du skapa, anpassa och hantera din hemsida utan ansträngning.",
-        "content": <Web/>
+        "content": <Web />
     },
     "Timesheet": {
         "image": "/assets/Services/t.svg",
         "logo": "/Timesheet 1.svg",
         "title": "Timesheet- Tidsrapportering",
         "description": "Highnox Tidsrapportering låter dig och ditt team spåra och hantera fakturerbara timmar, godkänna tid och underlätta faktureringen av ditt och teamets tjänster. Allt i ett program med underbar gränssnitt.",
-        "content": <Time/>
+        "content": <Time />
     }
 };
 

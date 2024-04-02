@@ -13,12 +13,12 @@ export default function NabBar() {
             "page": "/crm"
         },
         {
-            "title": "Conference Management" ,
+            "title": "Space Management",
             "src": "/SM .svg",
             "page": "/sm"
         },
         {
-            "title": "Space Management",
+            "title": "Conference Management",
             "src": "/cm.svg",
             "page": "/cm"
         },
@@ -110,12 +110,15 @@ export default function NabBar() {
                     className="sm:hidden"
                 />
                 <NavbarBrand>
-                    <Image
-                        src={"/logo.svg"}
-                        width={150}
-                        height={100}
-                        alt="logo"
-                    />
+                    <Link href="/" >
+                        <Image
+                            src={"/logo.svg"}
+                            width={150}
+                            height={100}
+                            alt="logo"
+                        />
+                    </Link>
+                    
                 </NavbarBrand>
             </NavbarContent>
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
@@ -186,7 +189,7 @@ export default function NabBar() {
                         <DropdownItem   >
                             <Link href="/omoss" className="flex items-center text-black ">
                                 <h4 className="font-semibold">
-                                    om oss
+                                    Om oss
                                 </h4>
                             </Link>
                         </DropdownItem>
@@ -249,7 +252,7 @@ export default function NabBar() {
                         <AccordionItem key="2" aria-label="Om oss" title="Om oss">
                             <Link href="/omoss" className="flex items-center text-black mb-1">
                                 <h4 className="font-semibold">
-                                    om oss
+                                    Om oss
                                 </h4>
                             </Link>
                             <Link href="/cookies" className="flex items-center text-black mb-1">
