@@ -118,6 +118,8 @@ export default function Home() {
       {/* Section1 */}
       <div className='relative h-[calc(100vh-70px)] bg-[#e1f4ff]'  >
         <div className=' h-0 w-0 
+                hidden
+                md:block
                 border-r-[1519px] border-r-white
                 border-t-[400px] border-t-transparent
                 absolute bottom-0 right-0
@@ -164,8 +166,9 @@ export default function Home() {
       {/* Section4 */}
       <div className='relative h-[calc(100vh-64px)] bg-[#e1f4ff]  '  >
         <div className=' h-0 w-0 
-                border-l-[500px] border-l-white
-                md:border-l-[1519px] 
+                hidden
+                md:block
+                md:border-l-[1519px] border-l-white
                 border-t-[400px] border-t-[#e1f4ff]
                 absolute bottom-0 left-0
                 z-0
