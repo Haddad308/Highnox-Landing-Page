@@ -15,12 +15,12 @@ export default function NabBar() {
         {
             "title": "Space Management",
             "src": "/SM .svg",
-            "page": "/sm"
+            "page": "/cm"
         },
         {
             "title": "Conference Management",
             "src": "/cm.svg",
-            "page": "/cm"
+            "page": "/sm"
         },
         {
             "title": "Human Resources",
