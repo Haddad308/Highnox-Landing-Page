@@ -164,7 +164,8 @@ export default function Home() {
       {/* Section4 */}
       <div className='relative h-[calc(100vh-64px)] bg-[#e1f4ff]  '  >
         <div className=' h-0 w-0 
-                border-l-[1519px] border-l-white
+                border-l-[500px] border-l-white
+                md:border-l-[1519px] 
                 border-t-[400px] border-t-[#e1f4ff]
                 absolute bottom-0 left-0
                 z-0
