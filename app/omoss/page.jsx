@@ -25,6 +25,7 @@ const page = () => {
                 <div className=' h-0 w-0 
                 border-r-[1500px] border-r-white
                 border-t-[400px] border-t-[#e1f4ff]
+                border-t-transparent
                 absolute bottom-0 right-0
                 z-0
                 ' >
