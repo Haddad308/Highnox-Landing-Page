@@ -39,25 +39,25 @@ const page = () => {
                         <div className="border-2 bg-white shadow-md w-10 h-10 flex items-center justify-center rounded-full" >
                             <IoLocationSharp className="text-primary" />
                         </div>
-                        < p className="text-white"> Address: <span className="text-gray-200" >128 West 21th Street, New York</span></p>
+                        < p className="text-white"> Address: <span className="text-gray-200" >Strandvägen 7, 114 56 Stockholm</span></p>
                     </div>
                     <div className="flex items-center gap-2" >
                         <div className="border-2 bg-white shadow-md w-10 h-10 flex items-center justify-center rounded-full" >
                             <FaPhone className="text-primary" />
                         </div>
-                        < p className="text-white"> Phone: <span className="text-gray-200" >+01281982770</span></p>
+                        < p className="text-white"> Phone: <span className="text-gray-200" >+46 8 400 307 00</span></p>
                     </div>
                     <div className="flex items-center gap-2" >
                         <div className="border-2 bg-white shadow-md w-10 h-10 flex items-center justify-center rounded-full" >
                             <FaTelegramPlane className="text-primary" />
                         </div>
-                        < p className="text-white"> Email: <span className="text-gray-200" >melhaddad308@gmail.com</span></p>
+                        < p className="text-white"> Email: <span className="text-gray-200" >Support@highnox.com</span></p>
                     </div>
                     <div className="flex items-center gap-2" >
                         <div className="border-2 bg-white shadow-md w-10 h-10 flex items-center justify-center rounded-full" >
                             <FaEarthAmericas className="text-primary" />
                         </div>
-                        < p className="text-white"> Website: <span className="text-gray-200" >www.haddad.com</span></p>
+                        < p className="text-white"> Website: <span className="text-gray-200" >www.highnox.com</span></p>
                     </div>
                 </div>
 
