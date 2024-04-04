@@ -27,7 +27,7 @@ const page = () => {
                     <Checkbox defaultSelected color="primary">  </Checkbox>
                     <p> You agree to our friendly <span className='underline    hover:text-blue-700 transition-all duration-300 cursor-pointer' >privacy policy. </span></p>
                 </div>
-                <Button color="primary" className='w-full' >
+                <Button color="primary" className='w-full hidden' >
                     Send
                 </Button>
             </div>
